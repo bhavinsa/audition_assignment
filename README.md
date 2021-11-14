@@ -26,7 +26,10 @@ You will also see any lint errors in the console.
 ### `screen shot`
 
 <p>
-  <img src="screenshot/completed.png" width="350" title="Completed view">
-  <img src="screenshot/load.png" width="350" title="On Load View">
-  <img src="screenshot/previousphase.png" width="350" title="Validation Phase">
+  <img src="screenshot/completed.png" width="500" title="Completed view">
+  <br/>
+  <img src="screenshot/load.png" width="500" title="On Load View">
+  <br/>
+  <img src="screenshot/previousphase.png" width="500" title="Validation Phase">
+  <br/>
 </p>
