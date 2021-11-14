@@ -24,10 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +31,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-wrapper {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  width: auto;
+  border: 5px solid #d8d5d5;
+  display: table;
+  margin: 15px auto;
+}
+
+.main-wrapper ul {
+  padding-left: 0px;
+  list-style: none;
+  max-height: 400px;
+  overflow: auto;
+  position: relative;
+}
+
+.main-wrapper ul h2 {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-wrapper ul h2 > i {
+  margin-left: 10px;
+}
+
+.main-wrapper ul h2 > span {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.main-wrapper ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.main-wrapper ul li input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.main-wrapper ul li .sub-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 50px);
+  display: inline-block;
+  vertical-align: middle;
 }
